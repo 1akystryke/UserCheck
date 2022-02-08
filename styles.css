@@ -1,0 +1,48 @@
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+cursor: pointer;
+
+BODY {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEE;
+  font-family: Georgia;
+  }
+H1 {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: -1px -1px #FFF,
+               -2px -2px #FFF,
+               -1px 1px #FFF,
+               -2px 2px #FFF,
+               1px 1px #FFF,
+               2px 2px #FFF,
+               1px -1px #FFF,
+               2px -2px #FFF,
+               -3px -3px 2px #BBB,
+               -3px 3px 2px #BBB,
+               3px 3px 2px #BBB,
+               3px -3px 2px #BBB;
+  color: steelblue;
+  transition: all 1s;
+  }
+  H1:hover {
+    color: yellowgreen;
+    }
+	
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea::placeholder {
+     text-align: center;
+}
